@@ -49,7 +49,7 @@ export const deleteComment = async (req, res) => {
 
   const deletedComment = await Comment.findOneAndDelete({
     _id: id,
-    user: user._id,
+    // user: user._id,
   })
 
   if (!deletedComment) {
