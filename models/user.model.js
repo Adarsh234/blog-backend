@@ -18,7 +18,7 @@ const userSchema = new Schema(
       required: true,
       unique: true,
     },
-    img: {
+    profile_img: {
       type: String,
     },
     savedPosts: {
